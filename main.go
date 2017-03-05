@@ -1,7 +1,7 @@
-package pigeon_go
+package main
 
 import "fmt"
 
 func main() {
-	fmt.PrintLn("HEllo, World")
+	fmt.Println("HEllo, World")
 }
