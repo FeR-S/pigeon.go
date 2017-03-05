@@ -20,7 +20,7 @@ func HelloServer(w http.ResponseWriter, r *http.Request) {
 func main() {
 	fmt.Println("Starting...")
 	http.HandleFunc("/", HelloServer)
-	err := http.ListenAndServe(":3000", nil)
+	err := http.ListenAndServe(":3001", nil)
 	if err != nil {
 		log.Fatal("ListenAndServe: ", err)
 	}
